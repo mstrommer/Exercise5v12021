@@ -7,6 +7,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
+import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -137,7 +138,7 @@ class TicTacToeTest {
             String output = "Yoda make your move (choose a number): Yoda make your move (choose a number): Yoda make your move (choose a number): Yoda make your move (choose a number): ";
 
             Class<?> c = Class.forName("at.ac.fhcampuswien.tictactoe.Player");
-            Method m = c.getMethod("makeMove", TicTacToe.class);
+            Method m = c.getMethod("makeMove", TicTacToe.class, Scanner.class);
             Constructor<?> co = c.getConstructor(char.class,String.class);
             Player p1 = (Player) co.newInstance('O',"Yoda");
             Player p2 = (Player) co.newInstance('X',"Boba");
@@ -146,7 +147,7 @@ class TicTacToeTest {
             TicTacToe ttt = (TicTacToe) co2.newInstance(p1,p2);
 
             // Action
-            m.invoke(p1,ttt);
+            m.invoke(p1,ttt,new Scanner(System.in));
 
             // Assertion
             assertEquals(output, bos.toString());
