@@ -23,7 +23,7 @@ run {
     standardInput(System.in)
 }
 
-mainClassName = 'at.ac.fhcampuswien.App'
+mainClassName = 'at.ac.fhcampuswien.tictactoe.TicTacToe'
 
 allprojects {
     tasks.withType(JavaCompile) {
