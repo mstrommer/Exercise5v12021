@@ -156,7 +156,7 @@ class TicTacToeTest {
             fail("There should be a class called Player and TicTacToe with corresponding constructors.");
         } catch (NoSuchMethodException nsme){
             nsme.printStackTrace();
-            fail("There should be a method called makeMove(TicTacToe game).");
+            fail("There should be a method called makeMove(TicTacToe game, Scanner scan).");
         } catch (Exception e) {
             e.printStackTrace();
             fail("Problems might have occurred creating the Object. Also check return types.");
