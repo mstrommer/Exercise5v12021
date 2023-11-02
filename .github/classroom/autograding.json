@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "checkPlayerClass1 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.checkPlayerClass1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "checkPlayerClass2 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.checkPlayerClass2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "getName (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.getName",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "getSymbol (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.getSymbol",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "makeMove (2 Points)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.makeMove",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "checkTicTacToeClass1 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.checkTicTacToeClass1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "checkTicTacToeClass2 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.checkTicTacToeClass2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "placeTic (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.placeTic",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "prettyPrintGameBoard (2 Points)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.prettyPrintGameBoard",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "checkIfWon (2 Points)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.checkIfWon",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "playGame1 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.playGame1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "playGame2 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.tictactoe.TicTacToeTest.playGame2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
