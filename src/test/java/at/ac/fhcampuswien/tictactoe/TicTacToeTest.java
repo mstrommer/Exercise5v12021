@@ -60,7 +60,7 @@ class TicTacToeTest {
             // check if all fields are named correctly, private,...
             assertTrue(Arrays.stream(Player.class.getDeclaredFields()).allMatch(
                     field -> Modifier.toString(field.getModifiers()).equals("private") && (
-                            field.getName().equals("symbol") || field.getName().equals("name"))
+                            field.getName().equals("symbol") || field.getName().equals("name") || field.getName().equals("isHuman"))
             ), "Please check your field names and modifiers!");
         } catch (Exception e) {
             e.printStackTrace();
